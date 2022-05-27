@@ -6,7 +6,12 @@ public class ASumar {
 		// TODO Apéndice de método generado automáticamente
 		String numero = cad;
 		String cadena = "";
-		if (numero.length() == 1) {
+		
+		char primero = numero.charAt(0);
+		
+		if (primero == '-') {
+			cadena = "Negativo. Siempre negativo";
+		} else {
 			cadena = numero+ " = " +numero;
 		}
 		return cadena;

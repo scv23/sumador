@@ -13,5 +13,4 @@ class TestASumar {
 		
 		System.out.println(resultado);
 	}
-
 }
