@@ -9,8 +9,6 @@ class TestASumar {
 	@Test
 	public void testUnaCifra() {
 		ASumar sumi = new ASumar();
-		String resultado = sumi.sumativo("6");
-		
-		System.out.println(resultado);
+		System.out.println(sumi.total(3433));
 	}
 }

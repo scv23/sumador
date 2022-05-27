@@ -16,5 +16,14 @@ public class ASumar {
 		}
 		return cadena;
 	}
+	
+	public int total(int numero) {
+		int resultado = 0;
+		while (numero>0) {
+			resultado += numero % 10;
+			numero = numero / 10;
+		}
+		return resultado;
+	}
 
 }
